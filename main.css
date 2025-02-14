@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e64d8;
+    color: white;
+    padding: 10px 20px;
+  }
+   */
+  .logo img {
+    #img
+        height: 60px;
+        width: 150px;
+    
+  }
+  #d1{
+    background-color: antiquewhite;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+  }
+  
+  nav {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+  }
+  
+  .menu li {
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: rgb(8, 5, 5);
+    font-size: 16px;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  .menu a:hover {
+    background-color: rgb(240, 225, 229);
+    border-radius: 5px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: antiquewhite;
+    width: 200px;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  .dropdown-content li {
+    margin: 5px 0;
+  }
+  
+  .dropdown-content a {
+    color: rgb(12, 2, 2);
+    padding: 8px;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(230, 214, 226);
+  }
+  
+  .cart a {
+    text-decoration: none;
+    color: rgb(7, 1, 1);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    right: 30px;
+    font-size: 25px;
+    top: 40px;
+    
+  }
+  
+  .cart a:hover {
+    color: #e73c1d;
+  }
+  #im1{
+    height: 300px;
+    width: 350px;
+    
+
+  }
+  #im2{
+    height: 300px;
+    width: 330px;
+  }
+  #im3{
+    height: 300px;
+    width: 320px;
+  }
+  #im4{
+    height: 300px;
+    width: 335px;
+  }
+  #m1{
+   
+    /* justify-content: space-around;
+    align-items: center; */
+     height: 90vh;
+     width: 100%;
+     background-color: rgb(212, 212, 216);
+     display: grid;
+     gap: 1px 9px;
+     margin: 20px;
+     grid-template-columns: 30% 25% 19% 19% 10% ;
+     grid-template-rows: 150px auto;
+     border: 5px dotted snow;
+     
+ }
+ #i1{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/left-banner-image.jpg");
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#i2{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/baner-right-image-01.jpg");
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-size: 130%;
+    background-repeat: no-repeat;
+    
+}
+#i3{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/baner-right-image-02.jpg");
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+#i4{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/baner-right-image-03.jpg");
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-size: 50%;
+    background-repeat: no-repeat; 
+}
+#i5{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/baner-right-image-04.jpg");
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-size: 101.9%;
+    background-repeat: no-repeat; 
+}
+.c2{
+    display: grid;
+   
+   
+}
+input{
+   
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    
+}
+#mc{
+    display: grid;
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(194, 213, 247);
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 90px auto;
+    justify-content: space-evenly;
+    margin: 10px;
+    border: 5px dotted snow;
+}
+#mi1{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/men-01.jpg");
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-repeat: no-repeat;
+    margin: 15px;
+    border: 3px solid rgb(10, 2, 31);
+}
+#mi2{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/men-02.jpg");
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-repeat: no-repeat;
+    margin: 15px;
+    border: 3px solid rgb(10, 2, 31);
+}
+#mi3{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/men-03.jpg");
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-repeat: no-repeat;
+    margin: 15px;
+    border: 3px solid rgb(10, 2, 31);
+}
+#mc1{
+    display: grid;
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(206, 215, 241);
+    grid-template-columns: 35% 35% 35%;
+    grid-template-rows: 90px auto;
+    justify-content: space-evenly;
+    margin: 10px;
+    border: 5px dotted snow;
+}
+#mi4{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/women-01.jpg");
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    background-repeat: no-repeat;
+    margin: 15px;
+    background-size: 80%;
+    border: 3px solid rgb(10, 2, 31);
+}
+
+#mi5{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/women-02.jpg");
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    background-repeat: no-repeat;
+    margin: 15px;
+    background-size: 90%;
+    border: 3px solid rgb(10, 2, 31);
+}
+#mi6{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/women-03.jpg");
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    background-repeat: no-repeat;
+    margin: 15px;
+    background-size: 80%;
+    border: 3px solid rgb(10, 2, 31);
+}
+#m4{
+    background-color: rgb(176, 187, 224);
+    height: 50vh;
+    width: 100%;
+    border: 5px dotted snow;
+}
+#m4c{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+   
+}
+#m41{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/instagram-01.jpg");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    border: 3px solid rgb(10, 2, 31);
+}
+#m42{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/instagram-02.jpg");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    border: 3px solid rgb(10, 2, 31);
+}
+#m43{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/instagram-03.jpg");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    border: 3px solid rgb(10, 2, 31);
+}
+#m44{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/instagram-04.jpg");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    border: 3px solid rgb(10, 2, 31);
+}
+#m45{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/instagram-06.jpg");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    border: 3px solid rgb(10, 2, 31);
+}
+#m46{
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/instagram-05.jpg");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    border: 3px solid rgb(10, 2, 31);
+}
+#m5{
+    background-color: rgb(10, 10, 10);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    
+    
+   
+}
+#m5c{
+    display: grid;
+    width: 30%;
+    height: 39vh;
+    background-color: rgb(10, 10, 10);
+    margin: 30px;
+    grid-template-columns: 30% 30%  auto;
+    grid-template-rows: 90px auto;
+    color: white;
+}
+#m51{
+   
+   background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page293/hexashop/assets/images/white-logo.png");
+    height: 80px;
+    width: 100%;
+    background-repeat: no-repeat; 
+    margin: 20px; 
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+}
+
+#m52{
+   margin: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#m5c1{
+    display: grid;
+    width: 30%;
+    height: 40vh;
+    background-color: rgb(10, 10, 10);
+    margin: 30px;
+    grid-template-columns: 30% 30%  auto;
+    grid-template-rows: 90px auto;
+    color: white;
+}
+#m53{
+    margin: 20px; 
+     grid-column-start: 1;
+     grid-column-end: 3;
+     grid-row-start: 1;
+     grid-row-end: 2;
+}
+#m54{
+    margin: 20px; 
+     grid-column-start: 1;
+     grid-column-end: 3;
+     grid-row-start: 2;
+     grid-row-end: 3;
+}
+#m5c2{
+    display: grid;
+    width: 25%;
+    height: 40vh;
+    background-color: rgb(10, 10, 10);
+    margin: 30px;
+    grid-template-columns: 30% 30%  auto;
+    grid-template-rows: 90px auto;
+    color: white;
+}
+#m55{
+    margin: 20px; 
+     grid-column-start: 1;
+     grid-column-end: 3;
+     grid-row-start: 1;
+     grid-row-end: 2;
+}
+#m56{
+    margin: 20px; 
+     grid-column-start: 1;
+     grid-column-end: 3;
+     grid-row-start: 2;
+     grid-row-end: 3;
+}
+#m5c3{
+    display: grid;
+    width: 40%;
+    height: 40vh;
+    background-color: aquamarine;
+    margin: 30px;
+    grid-template-columns: 30% 30%  auto;
+    grid-template-rows: 90px auto;
+}
+#m57{
+    margin: 20px; 
+     grid-column-start: 1;
+     grid-column-end: 3;
+     grid-row-start: 1;
+     grid-row-end: 2;
+}
+#m58{
+    margin: 20px; 
+     grid-column-start: 1;
+     grid-column-end: 3;
+     grid-row-start: 2;
+     grid-row-end: 3;
+}
+
+
+
+  

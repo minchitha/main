@@ -1,0 +1,126 @@
+
+
+/* Resetting some styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Promotion Banner */
+  .promotion-banner {
+    background-color: #ebaca1;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .promotion-banner h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .promotion-banner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  /* .promotion-banner .shop-now {
+    text-decoration: none;
+    color: white;
+    background-color: #d60c0c;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+  } */
+  
+  .promotion-banner .shop-now:hover {
+    background-color: #555;
+  }
+  
+  /* Product Display */
+  .product-display {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .product-display h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .product {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .product p {
+    font-size: 1.1em;
+  }
+  
+  .product a {
+    text-decoration: none;
+    background-color: #ebaca1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .product a:hover {
+    background-color: #ebaca1;x 
+  }
+  
+  /* Brand Slider */
+  .brand-slider {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .brand-slider h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .brands {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .brand img {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .brand img:hover {
+    transform: scale(1.1);
+  }
+  .shop-now{
+
+  }
